@@ -1,0 +1,11 @@
+************* Module banks_project
+banks_project.py:93:0: C0303: Trailing whitespace (trailing-whitespace)
+banks_project.py:183:0: C0304: Final newline missing (missing-final-newline)
+banks_project.py:95:11: W0718: Catching too general exception Exception (broad-exception-caught)
+banks_project.py:85:23: W0718: Catching too general exception Exception (broad-exception-caught)
+banks_project.py:133:42: C0103: Argument name "TABLE_NAME" doesn't conform to snake_case naming style (invalid-name)
+banks_project.py:133:42: W0621: Redefining name 'TABLE_NAME' from outer scope (line 20) (redefined-outer-name)
+banks_project.py:145:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 9.21/10 (previous run: 9.21/10, +0.00)
