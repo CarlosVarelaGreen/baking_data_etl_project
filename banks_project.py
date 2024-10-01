@@ -34,7 +34,7 @@ def log_progress(message):
     This function creates a log file to track de progress of the
     ETL pipeline for control and debugging purposes.
     """
-    timestamp_format = '%Y-%h-%d-%H:%M:%S'
+    timestamp_format = '%Y-%h-%d-%H:%M'#:%S'
     now = datetime.now()
     timestamp = now.strftime(timestamp_format)
     with open(log_file, 'a', encoding='utf-8') as file:
